@@ -14,7 +14,7 @@ int colIndex = Convert.ToInt32(Console.ReadLine());
 int foundElement = FindElementValue(rowIndex, colIndex, myTwoDimArr);
 if (foundElement != -1)
 {
-    Console.WriteLine("Значение элемента в заданной позиции: {foundElement}");
+    Console.WriteLine("Значение элемента в заданной позиции: " + foundElement);
 }
 
 
